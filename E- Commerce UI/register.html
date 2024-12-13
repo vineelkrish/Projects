@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <style>
+    main{
+        display: flex;
+        justify-content:center;
+        padding-top:40px;
+    }
+    .log{
+background-color:rgba(239, 245, 245,0.3);
+height: 400px;
+width: 330px;
+border-radius: 4px;
+padding: 25px;
+margin:10px;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ color: white;
+ transition: 3s;
+}
+h3{
+    text-align:center ;
+}
+
+   </style>
+</head>
+<body>
+    <header>
+    <div class="container">
+        
+        <nav>
+            <a href="#catalog" style="font-weight: bold;padding-top: 10px;padding-left: 10px;">Register Here</a>
+        <ul >
+            <li><a href="index.html"><i class="fa fa-cubes"></i> Catalog </a></li>
+            <li><a href="cart.html"><i class="fa fa-cart-plus"></i> Cart </a></li>
+            <li><a href="login.html"><i class="fa fa-user"></i> Login </a></li>
+            <li><a href="#"><i class="fa fa-globe"></i> Register </a></li>
+        </ul></nav>
+    </div>
+</header>
+<main>
+    <section>
+        <div class="log">
+            <h3>Register</h3>
+            <br>
+            <form>
+            <input type="text" id="email" placeholder=" email"><br><br>
+            <input type="text" id="password" placeholder=" Password">
+            <br><br>
+            <input type="text" id="rePassword" placeholder=" Re-Password">
+            <br><br>
+            <input type="text" id="mobile" placeholder=" Mobile">
+            <br><br>
+            <input type="text" id="age" placeholder=" Age">
+            <br><br>
+           <label> <input type="checkbox" id="rememberMe"> Remeber me</label>
+           <br>
+           <br>
+            <button id="bt" type="submit" style="margin-left :45px;padding-left:35px;padding-right:35px;">Register</button>
+            <br><br>
+            
+        </form>
+        </div>
+    </section>
+</main>
+<script src="register.js"></script>
+
+</body>
+</html>
